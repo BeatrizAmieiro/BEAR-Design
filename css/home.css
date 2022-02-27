@@ -153,12 +153,9 @@
 	grid-template-areas: 
 	"topbar3"
 	"habil"
-	"nivel"
 	"foot";
-	grid-template-rows: 12vh auto auto 10vh;
-	row-gap: 1rem;
-	height:100vh;
-	justify-content: space-around;
+	grid-template-rows: 12vh 78vh 10vh;
+	border: solid;
 }
 
 .topbar3 {
@@ -168,16 +165,15 @@
 .habil {
 	grid-area: habil;
 	display: grid;
-	grid-template-areas: "hard soft";
-	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-	grid-gap: 3%;
-	height: auto;
+	grid-template-areas: 
+	"hard soft"
+	"nivel nivel";
+	grid-template-columns:
+	repeat(2, 1fr);
+	row-gap: 10%;
 	width: 90vw;
 	max-width: 1200px;
-	justify-content: center;
-	justify-items: center;
-	margin: 0 auto;
-	margin-top: 5rem;
+	justify-self: center;
 }
 
 .hard {
@@ -198,7 +194,7 @@
 	height: auto;
 	width: 100%;
 	margin: 0 auto;
-	border-radius: 5px;
+	border-radius: 10px;
 	background: rgba(131, 31, 156, 0.3);
 	backdrop-filter: blur(15px);
 }
@@ -223,7 +219,7 @@
 	width: 30%;
 	display: block;
 	margin: 0 auto;
-	border-radius: 5px;
+	border-radius: 10px;
 	background: rgba(131, 31, 156, 0.3);
 	backdrop-filter: blur(15px);
 }
@@ -277,7 +273,7 @@
 		"texto2"
 		"entrevista"
 		"inclusao";
-		grid-template-rows: repeat(2, auto) 12vh;
+		grid-template-rows: repeat(3, auto);
 		row-gap: 1rem;
 	}
 
@@ -306,28 +302,25 @@
 		display: grid;
 		grid-template-areas:
 		"topbar3"
-		"hard"
-		"soft"
-		"nivel"
+		"habil"
 		"foot";
-		grid-template-rows: 12vh repeat(3, auto) 10vh;
+		grid-template-rows: 12vh auto 10vh;
+		height: 100vh;
 	}
 
 	.topbar3 {
 		grid-area: topbar3;
 	}
 
-	/*.habil {
+	.habil {
 		grid-area: habil;
-		display: grid;
 		grid-template-areas: 
 		"hard"
 		"soft"
 		"nivel";
-		grid-template-rows: repeat(3, 1fr);
-		margin: 0 auto;
-		margin-top: 1.5rem;
-	}*/
+		grid-template-rows: repeat(3, auto);
+	}
+
 
 	.hard {
 		grid-area: hard;
@@ -341,9 +334,9 @@
 		grid-area: nivel;
 	}
 
-	/*.nivel img {
+	.nivel img {
 		width: 60%;
-	}*/
+	}
 
 	.foot {
 		grid-area: foot;
