@@ -293,7 +293,7 @@
 		"entrevista"
 		"inclusao"
 		".";
-		grid-template-rows: auto auto auto 5vh;
+		grid-template-rows: auto auto auto 1vh;
 		row-gap: 1rem;
 	}
 
