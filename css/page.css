@@ -119,6 +119,7 @@ div.titulo {
 	.pag1, .pag2, .pag3 {
 		height: auto;
 		overflow-y: hidden;
+		margin: 0 auto;
 	}
 
 	img.logo {
