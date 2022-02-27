@@ -159,12 +159,6 @@
 	row-gap: 1rem;
 	height:100vh;
 	justify-content: space-around;
-	background-image: url(../images/home.jpg);
-	background-position: center top;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-attachment: fixed;
-   color: white;
 }
 
 .topbar3 {
@@ -275,7 +269,6 @@
 		".";
 		grid-template-rows: 10vh auto 1vh;
 		row-gap: 2rem;
-		height: 100vh;
 		margin: 0 auto;
 	}
 
@@ -286,6 +279,7 @@
 		"texto2"
 		"entrevista"
 		"inclusao";
+		grid-template-rows: auto auto 5vh;
 		row-gap: 1rem;
 	}
 
@@ -313,26 +307,28 @@
 		display: grid;
 		grid-template-areas:
 		"topbar3"
-		"habil"
+		"hard"
+		"soft"
 		"nivel"
 		"foot";
-		grid-template-rows: 12vh auto auto 10vh;
-		height: auto;
+		grid-template-rows: 12vh repeat(3, auto) 10vh;
 	}
 
 	.topbar3 {
 		grid-area: topbar3;
 	}
 
-	.habil {
+	/*.habil {
 		grid-area: habil;
 		display: grid;
 		grid-template-areas: 
 		"hard"
-		"soft";
+		"soft"
+		"nivel";
+		grid-template-rows: repeat(3, 1fr);
 		margin: 0 auto;
 		margin-top: 1.5rem;
-	}
+	}*/
 
 	.hard {
 		grid-area: hard;
@@ -346,9 +342,9 @@
 		grid-area: nivel;
 	}
 
-	.nivel img {
+	/*.nivel img {
 		width: 60%;
-	}
+	}*/
 
 	.foot {
 		grid-area: foot;

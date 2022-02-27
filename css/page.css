@@ -2,14 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap&family=Courgette&family=Keania+One&display=swap&family=Material+Icons+Round&family=Material+Icons+Outlined');
 
-.pag1, .pagport, .pagcont {
+.pag1, .pag3, .pagport, .pagcont {
    background-image: url(../images/home.jpg);
 	background-position: center top;
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
-   color: white;
 	height: 100vh;
+	color: white;
 }
 
 .header-site {
@@ -116,16 +116,10 @@ div.titulo {
 
 @media (max-width: 767px) {
 
-	.pag1, .pagcont {
+	.pag1, .pag3 {
 		height: auto;
 		overflow-y: hidden;
 	}
-
-/*	.header-site {
-		height: 10vh;
-		width: 90vw;
-		margin: 2vh auto;
-	} */
 
 	img.logo {
 		width: 14vw;
