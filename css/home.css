@@ -269,7 +269,7 @@
 
 	.pag2 {
 		display: grid;
-		grid-template-areas: 
+		grid-template-areas:
 		"topbar2"
 		"cont2";
 		grid-template-rows: 10vh auto;
@@ -312,13 +312,13 @@
 
 	.pag3 {
 		display: grid;
-		grid-template-areas: 
+		grid-template-areas:
 		"topbar3"
 		"habil"
 		"nivel"
 		"foot";
 		grid-template-rows: 12vh auto auto 10vh;
-		height: 100vh;
+		height: auto;
 	}
 
 	.topbar3 {
