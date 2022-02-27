@@ -279,7 +279,7 @@
 		"texto2"
 		"entrevista"
 		"inclusao";
-		grid-template-rows: auto auto 5vh;
+		grid-template-rows: auto auto 3vh;
 		row-gap: 1rem;
 	}
 
