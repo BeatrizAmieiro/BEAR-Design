@@ -76,3 +76,13 @@
 .foot {
 	grid-area: foot;
 }
+
+/* PHONE E TABLET RETRATO */
+
+@media (max-width: 767px) {
+
+		.contcontato {
+			height: auto;
+		}
+
+}
