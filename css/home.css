@@ -271,10 +271,11 @@
 		display: grid;
 		grid-template-areas:
 		"topbar2"
-		"cont2";
-		grid-template-rows: 10vh auto;
+		"cont2"
+		".";
+		grid-template-rows: 10vh auto 1vh;
 		row-gap: 2rem;
-		height: auto;
+		height: 100vh;
 		margin: 0 auto;
 	}
 
@@ -284,9 +285,7 @@
 		grid-template-areas: 
 		"texto2"
 		"entrevista"
-		"inclusao"
-		".";
-		grid-template-rows: auto auto auto 1vh;
+		"inclusao";
 		row-gap: 1rem;
 	}
 
