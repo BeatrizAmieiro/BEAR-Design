@@ -116,7 +116,7 @@ div.titulo {
 
 @media (max-width: 767px) {
 
-	.pag1, .pag3 {
+	.pag1, .pag2, .pag3 {
 		height: auto;
 		overflow-y: hidden;
 	}
