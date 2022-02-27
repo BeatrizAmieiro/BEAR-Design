@@ -277,7 +277,7 @@
 		"texto2"
 		"entrevista"
 		"inclusao";
-		grid-template-rows: repeat(2, auto) 10vh;
+		grid-template-rows: repeat(2, auto) 12vh;
 		row-gap: 1rem;
 	}
 
