@@ -117,6 +117,7 @@ div.titulo {
 @media (max-width: 767px) {
 
 	.pag1 {
+		height: auto;
 		overflow-y: hidden;
 	}
 
@@ -173,6 +174,10 @@ div.titulo {
 		line-height: 12vh;
 		margin: 0 auto;
 		padding: 0 2vw;
+	}
+
+	.pagcont {
+		height: auto;
 	}
 
 }

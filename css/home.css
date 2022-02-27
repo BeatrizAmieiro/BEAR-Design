@@ -246,10 +246,6 @@
 
 /* Página 1 */
 
-	.pag1 {
-		height: auto;
-	}
-
 	.cont1 {
 		grid-template-areas:
 		"avatar" 
