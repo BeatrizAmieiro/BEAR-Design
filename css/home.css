@@ -23,10 +23,15 @@
 
 .texto1 {
 	grid-area: texto1;
+	font-size: clamp(1.6rem, 2.5vw, 2.1rem);
 	font-weight: 700;
 	color: white;
 	margin: 0 auto;
 	padding: 3rem;
+}
+
+.texto1 p {
+	font-size: clamp(1.3rem, 2.5vw, 2.1rem);
 }
 
 
