@@ -1,6 +1,6 @@
 /* Import GFonts e Material Icons */
 
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Keania+One&display=swap&family=Material+Icons+Round&family=Material+Icons+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap&family=Courgette&family=Keania+One&display=swap&family=Material+Icons+Round&family=Material+Icons+Outlined');
 
 .pag1, .pagport, .pagcont {
    background-image: url(../images/home.jpg);
