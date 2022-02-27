@@ -1,0 +1,40 @@
+* {
+  	padding: 0;
+  	margin: 0;
+  	text-decoration: none;
+	list-style: none; /*Oculta os pontos da lista*/
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Verdana, Tahoma, sans-serif;
+	line-height: 1.5;
+}
+
+img {
+	height: auto;
+	width: 100%;
+}
+
+h1 {
+	font-size: clamp(2.6rem, 2.5vw, 5.5rem);
+	font-weight: 100;
+}
+
+h2 {
+	font-size: clamp(2.1rem, 2.5vw, 4.2rem);
+}
+
+h4 {
+	font-size: clamp(1rem, 2.5vw, 1.8rem);
+	font-weight: 100;
+}
+
+p {
+	font-size: clamp(0.8rem, 2.5vw, 1.6rem);
+}
