@@ -278,7 +278,7 @@
 		"cont2";
 		grid-template-rows: 10vh auto;
 		row-gap: 2rem;
-		height: 100vh;
+		height: auto;
 		margin: 0 auto;
 	}
 
