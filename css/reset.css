@@ -31,10 +31,10 @@ h2 {
 }
 
 h4 {
-	font-size: clamp(1rem, 2.5vw, 1.8rem);
+	font-size: clamp(1.3rem, 2.5vw, 1.8rem);
 	font-weight: 100;
 }
 
 p {
-	font-size: clamp(0.8rem, 2.5vw, 1.6rem);
+	font-size: clamp(1rem, 2.5vw, 1.6rem);
 }
