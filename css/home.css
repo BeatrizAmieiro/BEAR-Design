@@ -246,8 +246,12 @@
 
 /* Página 1 */
 
+	.pag1 {
+		height: auto;
+	}
+
 	.cont1 {
-		grid-template-areas: 
+		grid-template-areas:
 		"avatar" 
 		"texto1";
 		grid-template-columns: 1fr;
