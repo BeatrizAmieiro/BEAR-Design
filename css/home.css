@@ -20,14 +20,9 @@
 	width: 100%;
 }
 
-.avatar img {
-	height: auto;
-	width: 100%;
-}
 
 .texto1 {
 	grid-area: texto1;
-	font-size: clamp(1.3rem, 3vw, 1.8rem);
 	font-weight: 700;
 	color: white;
 	margin: 0 auto;
@@ -266,7 +261,6 @@
 	.texto1 {
 		grid-area: texto1;
 		font-weight: bold;
-		color: white;
 		margin: 0 auto;
 		padding: 1rem;
 	}
