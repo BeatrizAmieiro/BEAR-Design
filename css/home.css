@@ -4,7 +4,7 @@
 	display: grid;
 	grid-template-areas: 
 	"avatar texto1";
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 2fr;
 	gap: 2vw;
 	height: auto;
 	width: 90vw;
