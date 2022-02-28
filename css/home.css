@@ -319,6 +319,7 @@
 		"soft"
 		"nivel";
 		grid-template-rows: repeat(3, auto);
+		align-content: center;
 	}
 
 
