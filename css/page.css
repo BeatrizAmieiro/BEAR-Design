@@ -13,6 +13,11 @@
 }
 
 .header-site {
+	display: grid;
+	grid-template-areas: 
+	"logo nav";
+	grid-template-columns: 
+	14vw auto;
 	height: 10vh;
    width: 90%;
 	max-width: 1200px;
@@ -20,11 +25,19 @@
 	margin-bottom: 5vh;
 }
 
-img.logo {
-	height: 6vh;
-	width: 5vw;
+.logo {
+	grid-area: logo;
+}
+
+.logo img {
+	height: 8vh;
+	width: 7vw;
 	float: left;
 	margin: 1vh auto;
+}
+
+nav {
+	grid-area: nav;
 }
 
 nav ul {
@@ -122,9 +135,9 @@ div.titulo {
 		margin: 0 auto;
 	}
 
-	img.logo {
+	.logo img {
+		height: auto;
 		width: 14vw;
-		margin: 1vh auto;
 	}
 
 	.checkbtn {
