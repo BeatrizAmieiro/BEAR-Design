@@ -69,7 +69,7 @@
 	display: none;
 }
 
-#modalEx1:checked + .modal {
+#modalEx1:checked + .modal, #modalEx2:checked + .modal {
 	display: flex;
 }
 
