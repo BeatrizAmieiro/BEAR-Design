@@ -60,8 +60,7 @@
 }
 
 .abrirModal a {
-	border: 0.3px solid white;
-	border-radius: 10px;
+	color: #37009c;
 	cursor: pointer;
 	float: right;
 	font-size: clamp(0.8rem, 2.5vw, 1.6rem);
