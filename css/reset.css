@@ -9,11 +9,13 @@
 
 html {
 	font-size: 62.5%;
+	scroll-snap-type: y mandatory;
 }
 
 body {
-	font-family: Verdana, Tahoma, sans-serif;
+	font-family: Roboto, sans-serif;
 	line-height: 1.5;
+	scroll-snap-type: y mandatory;
 }
 
 img {
@@ -30,11 +32,19 @@ h2 {
 	font-size: clamp(2.1rem, 2.5vw, 4.2rem);
 }
 
+h3 {
+	font-size: clamp(1.6rem, 2vw, 2.8rem);
+}
+
 h4 {
-	font-size: clamp(1rem, 2.5vw, 1.8rem);
+	font-size: clamp(1.3rem, 2vw, 2.6rem);
 	font-weight: 100;
 }
 
+h5 {
+	font-size: clamp(1.1rem, 2vw, 2.2rem);
+}
+
 p {
-	font-size: clamp(0.8rem, 2.5vw, 1.6rem);
+	font-size: clamp(1rem, 1.5vw, 2rem);
 }

@@ -5,10 +5,9 @@
 	display: grid;
 	grid-template-areas: 
 	"header"
-	"topbar"
 	"contport"
 	"foot";
-	grid-template-rows: 15vh 12vh auto 10vh;
+	grid-template-rows: 15vh auto 10vh;
 }
 
 .header-site {
@@ -22,8 +21,8 @@
 .contport {
 	grid-area: contport;
 	width: 90%;
-	max-width: 1200px;
-	margin: 5% auto;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 .thumbnail {
@@ -33,18 +32,17 @@
 	grid-template-columns: 1fr 2fr;
 	background: rgba(0, 0, 0, 0.5);
 	border-radius: 10px;
-	max-width: 1000px;
+	max-width: 1600px;
 	margin: 0 auto;
 	margin-bottom: 2%;
 }
 
 .prototipo {
 	grid-area: prototipo;
-	height: 40vh;
 	overflow: hidden;
 }
 
-.prototipo iframe {
+.prototipo img {
 	height: 100%;
 	width: 100%;
 }
@@ -56,7 +54,28 @@
 }
 
 .textoprot h4 {
-	font-family: 'Courgette', cursive;
+	font-family: 'Goldman', cursive;
+}
+
+.abrirModal a {
+	color: #5912c8;
+	cursor: pointer;
+	float: right;
+	font-size: clamp(0.8rem, 2.5vw, 1.6rem);
+}
+
+.gestao {
+	margin: 0 auto;	
+} 
+
+.gestao hr {
+	border: 1.5px solid #5912c8;
+}
+
+.gestao iframe {
+	border-radius: 10px;
+	display: flex;
+	margin: 0 auto;
 }
 
 .foot {
@@ -81,9 +100,17 @@
 	}
 
 	.prototipo {
-		width: 40vw;
-		margin: 2rem auto;
+		width: 80vw;
+		margin: 1rem auto;
 		border-radius: 10px;
+	}
+
+	.gestao {
+		width: 85vw;
+	} 
+
+	.gestao iframe {
+		width: 85vw;
 	}
 
 } 
